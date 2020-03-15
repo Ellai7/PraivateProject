@@ -1,0 +1,83 @@
+Body {
+    box-sizing: border-box;
+    width: 800px;
+    height: 700px;
+
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: lightsalmon;
+/*
+    background-clip: border-box;
+*/    
+    color: #FFFFF3;
+
+    font-family: 'Poor Story', cursive;
+    font-size: 24px;
+
+/*
+    테두리 설정
+    border: medium solid;
+    border-radius: 40px;
+    
+*/
+}
+
+.Header {
+    margin-top: 100px;
+}
+
+
+.Main {
+    text-align: left;
+    margin-left: 170px;
+    margin-right: 225px;
+    overflow: auto;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 24px;
+
+}
+
+.Adder{
+    margin-left: 190px;
+    margin-right: 202px;
+}
+    
+
+.fa-circle{
+    float: left;
+    font-size: 30px;
+    margin-right: 6px;
+}
+
+.fa-trash-alt{
+    float: right;
+    font-size: 30px;
+}
+.fa-plus-square{
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+
+input[type=text]{
+    width: 80%;
+    height: 24px;
+    vertical-align: middle;
+    border: 2px solid;
+    border-color: #FFFFF3;
+    border-radius: 8px;
+}
+
+input::placeholder{       
+    font-family: 'Poor Story', cursive;
+    font-size: 18px;
+    font-weight: bolder;
+    color: lightsalmon;
+    
+    text-align: left;
+}
+

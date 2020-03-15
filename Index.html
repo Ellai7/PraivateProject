@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <div class="Header">
+        <h1 id="Today"></h1>
+        <script src="Main.js"></script>
+    </div>
+    <div class="Main">
+        <ul id="list">
+            <li class="item">
+                <i class="far fa-circle" job="complete"></i>
+                10km 도전하기
+                <i class="far fa-trash-alt" job="delete"></i>
+            </li>
+        </ul>
+    </div>
+    <div class="Adder">
+        <input type="text" id="todo" placeholder=" 할 일을 적어주세요.">
+        <i class="far fa-plus-square"></i>
+        <script>
+            var newTodo = document.getElementById('todo');
+            if(newTodo.onkeydown === 13)
+                {
+                    var input = document.querySelecto("input[type = 'text']");
+                    var ul = document.querySelector("ul");
+                    
+                    var li = document.createElement("li");
+                    ul.appendchild(li).append(newTodo);
+                }
+        </script>
+    </div>
+
+
+</body>
+</html>
